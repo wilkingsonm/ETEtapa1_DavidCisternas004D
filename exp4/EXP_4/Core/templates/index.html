@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+  {%load static%}
+  <title>Inicio</title> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="{%static 'css/bootstrap.min.css'%}" type="text/css" rel="stylesheet"> 
+  <link rel="StyleSheet" href="{%static 'css/estilos'%}" type="text/css">
+</head>
+<body >
+{%load static%}
+<!-- Menu navegacion -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" >
+  <div class="container-fluid">
+    <a class="navbar-brand" href="{% url 'index' %}">
+      <span class="text-light fs-5 fw-bold">NOTICIAS</span>
+      </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <!--Lista-->
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="{% url 'index' %}">Inicio</a>
+
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link" href="{% url 'registroo' %}">Registrarse</a>
+
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link" href=" ">Login</a>
+
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link" href="{% url 'ver' %}">Ver</a>
+
+        </li>
+
+    </ul>
+
+    </div>
+    </div>
+    </nav>
+    <br><br><br>
+    <center>
+      <h1>Noticias de ultimo minuto!!!</h1>
+    </center>
+    
+
+    <section class="container-fluid">
+      <div class="row w-75 mx-auto  serviciofila">
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-5 icono-wrap">
+          {%load static%}
+          <a href="https://redgol.cl/seleccionchilena/Seleccion-Chilena--Felipe-Bianchi-critica-a-los-hinchas-chaqueteros-tras-la-derrota-de-Chile-vs-Brasil-en-Copa-America-20210702-0137.html"><img src="{%static 'img/chile-brasil-copa-america_2_crop1625281204781.jpg_423682103.jpg'%}" alt=deportes width="180" height="160"></a>
+          <div>
+          <h3 class="fs-5 mt-4 px-4 pb-1">Chile pierde contra brasil en la copa america</h3>
+          <p class="px-4">este pasado viernes se enfrento chile y brasil en un partido por la copa, lamentablemente chile perdio. para mas informacion haz click en la imagen</p>
+        </div>
+       </div>
+  
+   
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-5 icono-wrap">
+          {%load static%}
+        <a href="https://www.24horas.cl/nacional/las-condes-millonario-robo-en-pc-factory-aun-no-tiene-detenidos-4854188"><img src="{%static 'img/foto_0000000720210705083135.png'%}" alt=pc_factory width="180" height="160"></a>
+        <div>
+        <h3 class="fs-5 mt-4 px-4 pb-1">Millonario robo a PC Factory</h3>
+        <p class="px-4">El dia Domingo en el Mall plaza Open Kennedy, se efectuo un asalto a la tienda pc factory avaluado en varios millones de pesos, los antisociales lograron escapar en una camioneta con encargo por robo y patente clonada... Para mas informacion click en la imagen</p>
+      </div>
+    </div>
+  
+    
+    <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-5 icono-wrap">
+      {%load static%}
+      <a href="https://redgol.cl/tendencias/Presidente-Convencion-Constituyente-Quien-es-Elisa-Loncon-y-cual-sera-su-rol--Convencion-Constitucional-Chile-20210704-0047.html"><img src="{%static 'img/QLCN73ONI7ATEQ6R3HD7RHQ7QU.jpg'%}" alt=elisa_loncon width="180" height="160"></a>
+      <div>
+      <h3 class="fs-5 mt-4 px-4 pb-1">Presidenta constituyente</h3>
+      <p class="px-4">El lunes pasado en la primera reunion de la asamblea constituyente, salio electa la Profesora Elisa Loncon. primera mujer mapuche con cargo politico historicamente... para mas informacion click en la imagen</p>
+    </div>
+   </div>
+  
+ 
+  <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-5 icono-wrap">
+      {%load static%}
+    <a href="https://www.elmostrador.cl/dia/2020/04/24/delincuentes-realizan-violento-asalto-a-equipo-de-prensa-de-cnn-chile-y-chv-en-plena-calle-de-vitacura/"><img src="{%static 'img/robo-equipo-de-prensa-vitacura-468x262.png'%}" alt=robo width="180" height="160"></a>
+    <div>
+    <h3 class="fs-5 mt-4 px-4 pb-1">Violento Robo a prensa en vitacura</h3>
+    <p class="px-4">En la madrugada del jueves pasado un grupo de 4 jovenes se bajo de un auto y robaron equipo del canal CNN y CHV... para mas informacion click en la imagen</p>
+    </div>
+    </div>
+  </div>
+  </section>
+
+  
+  
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+</body>
+<footer class="py-5">
+  {%load static%}
+  <div class="container" id="fondo">
+    <p class="m-0" id="contactos" style="font-size: 13px;">David Cisternas@Copyright &copy; Your Website 2021 </p>
+  </div>
+</footer>
+</html>

@@ -1,0 +1,18 @@
+-- creacion usuario oracle 18c
+
+alter session set "_ORACLE_SCRIPT"=true;
+create user EXP4 identified by 123 default tablespace users temporary tablespace temp;
+grant connect, resource, create view to EXP4;
+alter user EXP4 quota unlimited on users;
+commit;
+
+
+-- super user
+
+py manage.py createsuperuser
+
+user : david
+
+email: david.alfredo.cisternas.18@gmail.com
+
+pass (facil de recordar): 123

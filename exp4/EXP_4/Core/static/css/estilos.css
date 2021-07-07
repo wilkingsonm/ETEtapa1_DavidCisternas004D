@@ -1,0 +1,77 @@
+#parrafos{
+    color: white;
+    text-align: center;
+    border: dashed 5px white;
+    border-radius: 20%;
+    padding: 4%;
+}
+
+
+#insta {
+    display: block;
+    margin: 0 auto;
+    max-width: 15%;
+    width: 5%;
+}
+
+footer{
+    background-size: 30px;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    color: rgb(80, 55, 85);
+    margin-left: 25%;
+    margin-bottom: 40px;
+    font-size: 5vw;
+}
+h2{
+    padding-top: 10%;
+    font-family:tatoo;
+    text-align: center;
+    color: white ;
+    font-size: 4vw;
+}
+
+body {
+    font-family: Arial;
+  }
+
+input {
+    float: left;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+label {
+    clear: both;
+    float: left;
+    width: 200px;
+    font-size: 22px;
+    color:white;
+
+}
+
+button {
+    clear: both;
+    float: left;
+    width: 60px;
+}
+
+
+
+
+#esti{
+    margin: 0 auto;
+    align-content: center;
+    border-radius: 10px;
+    width: 500px;
+    }
+    
+    #jorge{
+        font-size:20px ;
+        text-align: center;
+        margin-left: 25%;
+    }
+
